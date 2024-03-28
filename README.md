@@ -16,15 +16,15 @@ In this coding challenge, I was tasked to build a simple menu display system for
 The functionality of deleting items from the order and clearing the entire order.
 
 
-**Attached Click Event Listener:**
+### Attached Click Event Listener:
 
 Attached a click event listener to the list item to delete it from the order in the Callback function for adding an item to the order
 
-**Function for Deleting an Item from the Order:**
+### Function for Deleting an Item from the Order:
 
 Added The deleteFromOrder function which is responsible for removing a selected item from the order items list and updating the total price. When you have added many or more item to your orders, you can simply click on the item in your orders to delete from the order.
 
-**Function for Clearing the Whole Order:**
+### Function for Clearing the Whole Order:
 
 The clearOrder function was designed to clear the entire order and reset the total price to zero, when you are done with your order or when you want to start the order for the beggining.
 
