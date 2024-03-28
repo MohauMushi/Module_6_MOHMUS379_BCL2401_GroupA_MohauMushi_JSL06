@@ -71,6 +71,29 @@ main {
     font-weight: bold;
 }
 
+button{
+	border: 0;
+	outline: none;
+	font-family: inherit;
+	font-size: inherit;
+	cursor: pointer;
+}
+#clear-order {
+	font-weight: 500;
+    margin-top: 8px;
+	padding: 10px 15px; 
+	background-color: transparent;
+	color: #000000;
+	border-radius: 10px;
+	border: 2px solid #0aa5ff;
+	transition: 0.2s;
+}
+
+#clear-order:hover{
+	background-color: #0aa5ff;
+	color: white;
+}
+
 footer {
     text-align: center;
     padding: 1rem 0;
