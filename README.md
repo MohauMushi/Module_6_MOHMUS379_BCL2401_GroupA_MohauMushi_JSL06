@@ -33,8 +33,10 @@ Incorporating the code improvements, the functionality for deleting items from t
 
 ## Challenges
 The use of parseFloat() to parse the current total from the order total element's text content, as i didn't name `orderTotalElem` correctly until i asked help from my desk mate and he showed me the one problem that i did, Cause it didn't allow me to see the total of the order, as it was displaying NaN. But at the end, managed to make it work the calculation correctly.
+The other challenge which i had was the implementaion of delete, clear order function, with clear order function, when i pressed the button it was clearing the order and then i was not able to add anythings after that, but i managed to fix the bug in the function, to make it work. The delete function, the problem was that when the first item, was press to be deleted, it cleared the whole Total, and i was able to ask for help from fellow student to make it work like it was intended
 
 
 
 ## 📚 What I learned
 In creating this project, I gained valuable insights into dynamically manipulating the DOM, handling user interactions through event listeners, and calculating and updating total prices based on user actions. Through iterating through objects and arrays, I learned to effectively display menu items and facilitate item addition
+Also learnt how to Implement clear order function to be able to clear your order and also the delete function, which you can delete the order in your order lists 
